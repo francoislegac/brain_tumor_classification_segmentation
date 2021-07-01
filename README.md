@@ -47,8 +47,11 @@ This time we use a bigger dataset. The dataset comes from The Cancer Imaging Arc
 We use a classic model for semantic segmentation: U-net.
 Loss: we use the Jaccard loss, particularly helpful for imbalanced classes which is usually the case in segmentation. 
 The Jaccard index (also called IoU) is simply the intersection over the union. As we want a loss function that decrease when our predictions are better we use the following expression for the jaccard loss:  
-![jaccard](nbk_images/jaccard.jpeg)
-(soft expression of the Jaccard loss)
+
+$$
+\sigma
+$$
+
 
 ### Results
 
