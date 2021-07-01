@@ -15,20 +15,38 @@ source: https://institutducerveau-icm.org/en/brain-tumours/
 
 ## Classification
 
-### Installation
 ### Dataset
 - The dataset contains Magnetic resonance imaging (MRI) scans. 
 - The dataset comes from the following kaggle competition Source: https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection
+- The dataset is really small (about 250 images that we split into train / val / test (0.75 : 0.2 : 0.05)
+
 
 ### Preprocessing
-![prepro](nbk_images/brain_tumor_detection_cell_14_output_0.png)
+Several transformations are used :
+- rotation
+- left / right flip
+- gamma transformations
+- automated cropping as illustrated below
 
+![prepro](nbk_images/brain_tumor_detection_cell_18_output_0.png)
 
 ### Model Architecture
-We use VGG-
+- Model: VGG-16
+- Loss: binary cross entropy
 
-Model
-Loss
 ### Results 
+We quickly achieve about 80% of test accuracy. 
 
 ## Segmentation
+The goal is to detect the tumor pixel-wisely.
+
+### Dataset
+This time we use a bigger dataset. The dataset comes from The Cancer Imaging Archive (TCIA). It contains 3930 Brain MRI scans in .tif format along with their corresponding masks
+
+### Model Architecture
+### Results
+
+
+
+
+
