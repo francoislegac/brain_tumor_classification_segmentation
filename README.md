@@ -17,12 +17,16 @@ source: https://institutducerveau-icm.org/en/brain-tumours/
 
 ### Installation
 ### Dataset
-The dataset contains 
+- The dataset contains Magnetic resonance imaging (MRI) scans. 
+- The dataset comes from the following kaggle competition Source: https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection
 
-
-### Resources
 ### Preprocessing
+![prepro](nbk_images/brain_tumor_detection_cell_14_output_0.png)
+
+
 ### Model Architecture
+We use VGG-
+
 Model
 Loss
 ### Results 
