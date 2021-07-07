@@ -43,12 +43,16 @@ The goal is to detect the tumor pixel-wisely.
 ### Dataset
 This time we use a bigger dataset. The dataset comes from The Cancer Imaging Archive (TCIA). It contains 3930 Brain MRI scans in .tif format along with their corresponding masks
 
+### Preprocessing
+Creation of a custom data generator that returns a tuple containing the batch of images and its corresponding batch of masks. 
+
 ### Model Architecture
 We use a classic model for semantic segmentation: U-net.
 Loss: we use the Jaccard loss, particularly helpful for imbalanced classes which is usually the case in segmentation. 
 The Jaccard index (also called IoU) is simply the intersection over the union. As we want a loss function that decrease when our predictions are better we use the following expression for the jaccard loss.
 
 ### Results
+
 
 
 
