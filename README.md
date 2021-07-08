@@ -52,7 +52,12 @@ Loss: we use the Jaccard loss, particularly helpful for imbalanced classes which
 The Jaccard index (also called IoU) is simply the intersection over the union. As we want a loss function that decrease when our predictions are better we use the following expression for the jaccard loss.
 
 ### Results
+Loss evolution:
+20 epochs
+![loss](nbk_images/history.png)
 
+Example of one Prediction: 
+![pred](nbk_images/pred.png)
 
 
 
