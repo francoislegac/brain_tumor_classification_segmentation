@@ -48,6 +48,10 @@ Creation of a custom data generator that returns a tuple containing the batch of
 
 ### Model Architecture
 We use a classic model for semantic segmentation: U-net.
+
+![unet](nbk_images/u-net-architecture.png)
+
+
 Loss: we use the Jaccard loss, particularly helpful for imbalanced classes which is usually the case in segmentation. 
 The Jaccard index (also called IoU) is simply the intersection over the union. As we want a loss function that decrease when our predictions are better we use the following expression for the jaccard loss.
 
