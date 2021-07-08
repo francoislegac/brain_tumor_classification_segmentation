@@ -57,6 +57,8 @@ We use a classic model for semantic segmentation: U-net.
 Loss: we use the Jaccard loss, particularly helpful for imbalanced classes which is usually the case in segmentation. 
 The Jaccard index (also called IoU) is simply the intersection over the union. As we want a loss function that decrease when our predictions are better we use the following expression for the jaccard loss.
 
+![jaccard](nbk_image/jaccard_loss.png)
+
 ### Results
 
 ![loss](nbk_images/history.png)
