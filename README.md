@@ -49,7 +49,9 @@ Creation of a custom data generator that returns a tuple containing the batch of
 ### Model Architecture
 We use a classic model for semantic segmentation: U-net.
 
-![unet](nbk_images/u-net-architecture.png){:height="50%" width="50%"}
+
+<img src="https://github.com/francoislegac/brain_tumor_classification_segmentation/blob/main/nbk_images/u-net-architecture.png" alt="unet" width=50 height=50>
+
 
 
 Loss: we use the Jaccard loss, particularly helpful for imbalanced classes which is usually the case in segmentation. 
