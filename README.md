@@ -55,7 +55,6 @@ The Jaccard index (also called IoU) is simply the intersection over the union. A
 Loss evolution:
 
 ![loss](nbk_images/history.png)
-
 ![pred](nbk_images/pred.png)
 
 
