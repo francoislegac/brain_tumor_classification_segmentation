@@ -50,7 +50,7 @@ Creation of a custom data generator that returns a tuple containing the batch of
 We use a classic model for semantic segmentation: U-net.
 
 
-<img src="https://github.com/francoislegac/brain_tumor_classification_segmentation/blob/main/nbk_images/u-net-architecture.png" alt="unet" width=450 height=450>
+<img src="https://github.com/francoislegac/brain_tumor_classification_segmentation/blob/main/nbk_images/u-net-architecture.png" alt="unet" width=750 height=450>
 
 
 
