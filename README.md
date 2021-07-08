@@ -1,6 +1,6 @@
 # Brain MRI classification and segmentation
 
-This repository contains two main notebooks. The first one `XX` is about classification: we try to discriminate healthy scans from patients suffering from brain tumor. The second notebook `XX` tries to detect the tumors using a semantic segmentation model.
+This repository contains two main notebooks. The first one `brain_tumor_detection.ipynb` is about classification: we try to discriminate healthy scans from patients suffering from brain tumor. The second notebook `segmentation.ipynb` tries to detect the tumors using a semantic segmentation model.
 
 ## Objective
 
